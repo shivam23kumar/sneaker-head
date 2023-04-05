@@ -465,7 +465,9 @@ footer {
     margin: 20px;
     font-weight: 700;
     font-size: 20px;
+
   }
+  
 
   .slider{
     clip-path: none;
@@ -499,6 +501,7 @@ footer {
   .features{
     flex-direction: column;
   }
+
 
   .product{
     clip-path: none ;
@@ -561,3 +564,5 @@ footer {
     padding: 20px;
   }
 }
+
+
