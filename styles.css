@@ -49,6 +49,7 @@ html {
   }
   
   .navBottom {
+    margin-top:-5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -452,8 +453,15 @@ html {
     font-weight: 300;
     font-size: 14px;
   }
+
+  @media screen and (max-width:948px) {
+    .navBottom{
+        margin-top:2rem;
+      }
+
+  }
   
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:610px) {
     nav{
       padding: 20px;
     }
@@ -464,6 +472,7 @@ html {
   
     .navBottom{
       flex-wrap: wrap;
+      margin-top:1rem;
     }
   
     .menuItem{
