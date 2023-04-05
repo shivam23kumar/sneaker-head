@@ -43,6 +43,7 @@ html {
   }
   .navItem img{
     padding-right:2rem;
+    border-radius:100%;
   }
   .search img{
     margin-left:0.8rem;
